@@ -968,6 +968,14 @@ video {
   background-image: url('/assets/happyBg.jpg');
 }
 
+.bg-\[url\(\'\.\/assets\/happyBg\.jpg\'\)\] {
+  background-image: url('./assets/happyBg.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/happyBg-mirror\.jpg\'\)\] {
+  background-image: url('./assets/happyBg-mirror.jpg');
+}
+
 .from-blue-500 {
   --tw-gradient-from: #3b82f6;
   --tw-gradient-to: rgb(59 130 246 / 0);
