@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not Your Day</title>
+  <!-- Google Font CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="bg-gradient-to-tr from-blue-500 to-purple-600 w-[100vw] h-[100vh] flex justify-center items-center">
+  <div class="container mx-auto px-4">
+    <div
+      class="max-w-lg bg-gradient-to-tr from-sky-100 to-teal-100 py-10 px-6 rounded-lg mx-auto animate-pulse outline outline-purple-800">
+      <h1 class="text-center text-2xl font-shantel font-semibold text-slate-700 leading-relaxed">Sorry today is not your
+        day, but I will <span class="text-purple-500">always</span> wait for you until the <span
+          class="text-purple-500">time</span>.</h1>
+      <span class="text-5xl text-center block mt-10">😥</span>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('load', () => {
+
+      const ohNoSound = new Audio('assets/oh-no.mp3');
+
+      setTimeout(() => {
+        ohNoSound.play();
+      }, 500)
+    })
+
+  </script>
+</body>
+
+</html>

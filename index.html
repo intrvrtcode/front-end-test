@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>is it your birthday ?</title>
+  <!-- Google Font CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="font-shantel bg-gradient-to-tr from-blue-500 to-purple-600 relative overflow-hidden h-[100vh]">
+  <div class="container mx-auto">
+    <div class="p-4">
+      <h1 class="text-center text-2xl font-bold mt-10 bg-gradient-to-r from-purple-300 via-purple-100 to-sky-300 text-transparent bg-clip-text sm:text-3xl md:text-4xl lg:tracking-wider lg:text-5xl md:py-4"><span class="text-black">🎁</span> Is it your birthday ? <span class="text-black">🎁</span></h1>
+
+      <div class="max-w-lg bg-gradient-to-tr from-sky-100 to-teal-100 py-10 px-6 rounded-lg mt-20 mx-auto shadow-xl shadow-slate-600 relative md:py-14">
+        <p class="font-semibold mb-5 text-lg text-slate-700">let's check it out!</p>
+        <form id="input-form" action="">
+          <input id="name" class="w-full rounded-full py-2 px-5 mb-5 focus:ring focus:ring-blue-400 focus:outline-none placeholder:text-sm" type="text" placeholder="Enter Your Name..." autocomplete="off">
+          <label for="birthday" class="mb-2 block font-semibold text-slate-500">Enter date of birth</label>
+          <input id="dob" class="block w-full py-2 px-5 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400" type="date" required>
+          <button type="submit" class="mt-7 bg-blue-600 text-white text-center block mx-auto px-5 py-2 rounded-3xl hover:bg-blue-500 active:ring-2 active::ring-ble-400">check</button>
+        </form>
+
+        <div class="w-1/4 absolute -top-10 -right-10">
+          <img class="w-full h-full" src="https://www.transparentpng.com/thumb/gift/gp4ElL-gift-free-download-transparent.png" alt="Gift Free Download Transparent @transparentpng.com">
+        </div>
+    
+        <div class="w-1/4 absolute -bottom-10 -left-10">
+          <img class="w-full h-full" src="https://www.transparentpng.com/thumb/gift/Dj5s07-gift-png-icon.png" alt="gift png icon @transparentpng.com">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
