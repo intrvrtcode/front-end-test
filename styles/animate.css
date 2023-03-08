@@ -1,3 +1,11 @@
 :root {
   --animate-duration: 6s;
 }
+
+#need-bg {
+  background-image: url('../assets/happyBg.jpg');
+}
+
+#need-mirror-bg {
+  background-image: url('../assets/happyBg-mirror.jpg');
+}
